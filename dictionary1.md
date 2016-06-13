@@ -27,8 +27,14 @@
 
 4. 의존성 관리를 위해 [bower](https://bower.io/)를 설치
 	```
-	$ npm install nodemon --save
+	$ npm install bower --save
 	```
+	- bower 패키지 관리를 위해 bower init 커맨드로 bower.json 파일 생성
+	```
+	$ bower init
+	```
+	
+	
 <br>
 
 5. bower를 이용해서 bootstrap(+jquery) 설치
@@ -98,4 +104,4 @@ html
 
 <br><br>
 
-~~아직 사전 관련 기능은 하나도 없지만~~ 일단 앱 기본 토대가 완료 되었다.
+~~아직 사전 관련 기능은 하나도 없지만...~~ 일단 앱 기본 토대가 완료 되었다.
