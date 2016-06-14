@@ -84,7 +84,7 @@ html
   var router = express.Router();
   
   router.get('/', function(req, res, next) {
-    res.render('dictionary', {title: 'dic'});
+		res.render('dictionary', {title: 'dic'});
     
   });
   
