@@ -74,7 +74,8 @@ html
 
 3. /dictionary 경로로 접근 가능하도록 routes와 view를 추가
   1. app.js 파일에 아래 내용 추가
-    ```javascript
+
+		```javascript
   app.use('/dictionary', require('./routes/dictionary'));
     ```
   2. routes/dictionary.js 파일 추가 (index.js를 복사해서 약간 수정한다.)
@@ -103,6 +104,7 @@ html
   - [http://localhost:3000/dictionary](http://localhost:3000/dictionary)
 
 <br><br>
+
 
 
 ~~아직 사전 관련 기능은 하나도 없지만...~~ 일단 앱 기본 토대가 완료 되었다.
