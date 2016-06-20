@@ -109,4 +109,5 @@ html
 
 ~~아직 사전 관련 기능은 하나도 없지만...~~ 일단 앱 기본 토대가 완료 되었다.
 
-현재까지의 소스 https://github.com/hangaebal/dictionary-node-express/tree/blog1
+현재까지의 소스:  
+https://github.com/hangaebal/dictionary-node-express/tree/blog1
