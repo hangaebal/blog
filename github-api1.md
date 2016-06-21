@@ -8,7 +8,7 @@
 <br>
 
 #### 리파지토리 검색 API 적용
-  - https://developer.github.com/ Overview 페이지에 예시가 잘 나와 있다.
+  - https://developer.github.com/v3/repos/ 페이지에 잘 정리되어 있다.
   - [헤더에 User-Agent 값이 필수](https://developer.github.com/v3/#user-agent-required)라는 것 이외에는 별다른 특이사항은 없다. 
   - document에서는 curl을 사용하고 있으나 curl node.js 라이브러리 중 맘에 드는 것을 찾지 못해서 기본 모듈인 https를 사용했다.
 
