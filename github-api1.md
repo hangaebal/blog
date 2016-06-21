@@ -1,8 +1,29 @@
-### 만들던 앱을 활용해서 Github API 활용
+## 만들던 앱을 활용해서 GitHub API 활용
 
-진행 내용 정리 필요  
+네이버 백과사전 검색 API 결과가 기대했던 것과 달라서 계속 개선해나가기가 아쉬워졌다.  
+(검색 결과가 특정 길이 이상 출력되지 않고 링크로 직접 가서 확인해야 한다든지..)  
+
+다른 API 중에 괜찮은 게 없을까 찾다가 GitHub API를 선택했다.  
+
 <br>
 
+#### 리파지토리 검색 API 적용
+  - https://developer.github.com/ Overview 페이지에 예시가 잘 나와 있다.
+  - [헤더에 User-Agent 값이 필수](https://developer.github.com/v3/#user-agent-required)라는 것 이외에는 별다른 특이사항은 없다. 
+  - document에서는 curl을 사용하고 있으나 curl node.js 라이브러리 중 맘에 드는 것을 찾지 못해서 기본 모듈인 https를 사용했다.
+
+<br>
+
+app.js 에 routes 추가
+```node
+...
+app.use('/github', require('./routes/github'));
+...
+```
+
+<br>
+
+routes/github.js 파일 생성
 ```node
 var express = require('express');
 var router = express.Router();
@@ -54,6 +75,7 @@ module.exports = router;
 
 <br>
 
+views/github.jade 파일 생성
 ```jade
 extends layout
 
