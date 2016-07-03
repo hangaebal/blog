@@ -38,7 +38,7 @@
   - 바깥쪽 `mysite/` 폴더는 프로젝트를 감싸는 역할을 하고, 이름은 Django 에게 중요하지 않아서 원하면 바꿔도 된다.
 
   - `manage.py` : Django 프로젝트와 상호작용 할 수 있도록 해주는 커맨드라인 유틸리티이다. 
-  더 상세한 내용은 [django-admin and manage.py](https://docs.djangoproject.com/en/1.9/ref/django-admin/) 에서 확인 가능하다.
+  더 상세한 내용은 [django-admin and manage.py](https://docs.djangoproject.com/en/1.9/ref/django-admin/) 에서 확인할 수 있다.
 
   - 안쪽 `mysite/` 폴더는 프로젝트를 위한 실제 Python 패키지이다. 
   이 폴더명은 Python 패키지 이름이 되며 안에 있는 것을 import 하려면 이 이름을 사용해야 한다. (예: mysite.urls).
