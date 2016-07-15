@@ -40,7 +40,7 @@ HTTP 요청을 가능한 많이 핸들하기 위해 비동기와 멀티프로세
 
   1. [AsyncIO](https://docs.python.org/3/library/asyncio.html): 쉬운 비동기 프레임워크, Python 3.4 이상에 직접 통합되었다.
   
-  2. [aiohttp.web](http://aiohttp.readthedocs.org/en/latest/web.html): AsyncIO를 위한 HTTP protocol 구현채 + 웹 프레임워크
+  2. [aiohttp.web](http://aiohttp.readthedocs.org/en/latest/web.html): AsyncIO를 위한 HTTP protocol 구현체 + 웹 프레임워크
   
   3. (ujson)[https://github.com/esnme/ultrajson#ultrajson]: 가장 빠른 JSON serialization
 
