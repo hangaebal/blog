@@ -46,7 +46,7 @@
 
 2. pyenv-virtualenv 로 가상 환경 관리
 	> [https://github.com/yyuu/pyenv-virtualenv](https://github.com/yyuu/pyenv-virtualenv)  
-	> pyenv-installer 에 포함이 되어있기 때문에 추가로 설치할것은 없다.
+	> pyenv-installer 에 포함이 되어있기 때문에 추가로 설치할 것은 없다.
 
 	1. 가상 환경 생성 
 		```
@@ -55,7 +55,7 @@
 
 		- `pyenv virtualenv 버전 환경명` 형태로 사용
 
-		- 버전을 지정하지 않으면 현재 지정된 버전으로 적용 됨
+		- 버전을 지정하지 않으면 현재 지정된 버전으로 적용됨
 
 	2. 가상 환경 활성화
 		```
