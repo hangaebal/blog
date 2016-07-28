@@ -11,7 +11,6 @@
 
 ## all_in_one.py 파일 작성
 
-
 ```python
 import logging
 
@@ -62,23 +61,25 @@ class Container(api_hour.Container):
 
 ## 구동
 
-```bash
-$ api_hour all_in_one:Container
-```
+  - all_in_one.py 파일이 있는 디렉토리에서 아래 명령어로 구동
+  
+  ```bash
+  $ api_hour all_in_one:Container
+  ```
 
-- http://127.0.0.1:8000/ 접속 확인
+  - http://127.0.0.1:8000/ 접속 확인
 
 ## 워커 숫자에 따른 벤치마크
 
-- 아래 명령어로 16 워커로 구동
-
-```bash
-$ api_hour -w 16 all_in_one:Container
-```
-
-- [`wrk`](https://github.com/wg/wrk)를 활용해서 단일 워커와 비교 테스트
-
-```bash
-$ wrk -t12 -c400 -d30s http://127.0.0.1:8000/
-```
+  - 아래 명령어로 16 워커로 구동
+  
+  ```bash
+  $ api_hour -w 16 all_in_one:Container
+  ```
+  
+  - [`wrk`](https://github.com/wg/wrk)를 활용해서 단일 워커와 비교 테스트
+  
+  ```bash
+  $ wrk -t12 -c400 -d30s http://127.0.0.1:8000/
+  ```
 
