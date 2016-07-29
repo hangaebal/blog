@@ -8,6 +8,7 @@
   ```
   $ brew update
   $ brew install pyenv
+  $ brew install pyenv-virtualenv
   ```
 
 - 기타 OS
