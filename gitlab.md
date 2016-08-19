@@ -3,6 +3,7 @@
 > https://about.gitlab.com/downloads/#centos6
 
 
+- 사전 설치
 ```
 sudo yum install curl openssh-server openssh-clients postfix cronie
 ```
