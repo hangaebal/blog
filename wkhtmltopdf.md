@@ -12,7 +12,6 @@
   - http://wkhtmltopdf.org/downloads.html 페이지에서 OS에 맞는 항목을 다운로드하여 설치한다.
 
   <br>
-  <br>
 
 2. 활용
 
