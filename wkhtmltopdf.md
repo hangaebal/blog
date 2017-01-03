@@ -2,7 +2,7 @@
 
 > wkhtmltopdf, wkhtmltoimage, html to pdf, html to image
 
-- html 페이지를 이미지화 하는 모듈을 여러가지 찾던 중 css가 가장 브라우저에 가깝게 출력되는 것으로 확인되어 선택했다.
+- html 페이지를 이미지화 하는 모듈을 여러가지 찾던 중 css가 브라우저에 가장 가깝게 출력되는 것으로 확인되어 선택했다.
 
 <br>
 
