@@ -1,4 +1,4 @@
-# wkhtmltopdf
+# [wkhtmltopdf, wkhtmltoimage] html을 pdf나 이미지로 변환
 
 > wkhtmltopdf, wkhtmltoimage, html to pdf, html to image
 
