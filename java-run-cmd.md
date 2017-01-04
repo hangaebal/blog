@@ -1,4 +1,4 @@
-# Java에서 외부 프로그램 실행
+# Java에서 Command Line 명령어 실행
 
 - Java에서 wkhtmltoimage를 실행시키기 위해 외부 프로그램 실행 샘플 코드를 찾았다.
 
